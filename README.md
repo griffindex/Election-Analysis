@@ -44,7 +44,9 @@ The analysis of the election shows that:
 
 - The county with the largest voter turnout was:
     - Denver county, which had 306,055 voters and 82.8% of the vote.
-![Image of Election Results .txt file](/resources/election_results.png)
+
+![Image of Election Results txt file](/resources/election_results.png)
+
 ## Election Audit Summary
 
 This script demonstrates that Diana DeGette won the election by recieving 73.8% of the all votes with 272,892 total votes and how each county voted. The script can be used as-is with .csv files that are formatteed with the header rows Ballot ID, County, Candidate to verify election results. This means that a different csv file that includes different election data will produce a .txt file of results in the same format. Alternatively, another decision statement can be added to narrow down what percentage of the turnout in each county voted for a candidate. It can also be used to allocate resources to counties with low voter turnout in the next election season by renaming the variables associated with Line 112 and changing the if statement to calculate the county with the lowest turnouot. Overall, using a python script to iterate through a .csv file with a large amount of rows is an efficient way to audit election data and generate insights about current and future election outcomes.
