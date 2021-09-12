@@ -77,7 +77,7 @@ with open(file_to_save, "w") as txt_file:
         
         # 3. Calculate the percentage of votes.
         vote_percentage = float(votes) / float(total_votes) * 100
-            # Determine if the votes is greater than the winning count.
+        # Determine if the votes is greater than the winning count.
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
